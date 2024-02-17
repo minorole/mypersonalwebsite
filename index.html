@@ -1,158 +1,711 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Made by Jun</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!-- /*
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
+<html lang="en">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
 
-				<!-- Wrapper -->
-					<div id="wrapper">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
 
-						<!-- Panel (Banner) -->
-							<section class="panel banner right">
-								<div class="content color0 span-5-75">
-									<h1 class="major">Hello, my name <br />
-										is Jun</h1>
-									
-									<p>As a data analyst and detective wannabe, 
-										I comb through numbers like clues to solve the mystery of 'What does this data mean?' 
-										My operation manager side keeps everything in line, making sure even the most complex data plays nice. 
-										When I'm not deep in data, you'll find me with a camera in hand, capturing life's candid moments. 
-										Welcome to my world, where data isn't just analyzed – it's unraveled with a wink and a smile! </p>
-									<ul class="actions">
-										<li><a href="#first" class="button primary color1 circle icon solid fa-angle-right">Next</a></li>
-									</ul>
-								</div>
-								<div class="image filtered span-1-75" data-position="50% 100%">
-									<img src="images/pic04.jpeg" alt="" />
-								</div>
-							</section>
-							
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight medium" id="first">
-								<div class="content color4 span-10">
-									<h2 class="major">Project Accenture</h2>
-									<p>
-										Completed a simulation focused on advising a hypothetical social media client as a Data Analyst at Accenture <br>
-										Utilized sentiment analysis and user behavior modeling
-										Communicated insights through a PowerPoint deck and video presentation.
-										</p>
-										<ul class="actions">
-											<li><a href="https://www.canva.com/design/DAF4TQiiU88/view" class="button primary color2" target="_blank">Report</a></li>
-											<li><a href="https://www.canva.com/design/DAF4TQiiU88/p4PZ7w_DiqI9iFjmAU5ylA/view?utm_content=DAF4TQiiU88&utm_campaign=designshare&utm_medium=link&utm_source=editor" class="button primary color2" target="_blank">Video</a></li>
-										</ul>
-								</div>			
-								<div class="image filtered tinted" data-position="100% 100%">
-								</div>
-							</section>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
 
-						<!-- Panel -->
-						<section class="panel spotlight medium" id="first">
-							<div class="content color2 span-10">
-								<h2 class="major">Project Churn</h2>
-								<p>
-									Enhanced analysis and cleaning of Telecom Data from Kaggle using Python. Implemented RandomForest, GradientBoosting, XGBoost models; achieved 88% accuracy. <br>
-									Developed Customer Churn Risk Scoring System, categorizing customers into high and low-value groups. 
-									Made recommendations by extracting top factors influencing the machine learning model.
-									</p>
-									<ul class="actions">
-										<li><a href="https://www.kaggle.com/code/minorole/eda-and-building-machine-learning-model" class="button primary color2" target="_blank">Kaggle notebook showing full process</a></li>
-									</ul>
-							</div>			
-							<div class="image filtered tinted" data-position="top right">
-								<img src="images/pic01.jpg" alt="" />
-							</div>
-						</section>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
 
-						<section class="panel spotlight medium" id="first">
-							<div class="content color3 span-10">
-								<h2 class="major">Project Airline - Marketing Campaign Effectiveness on Loyalty Programs</h2>
-								<p>
-									Manipulated large datasets to analyze campaign effectiveness, and used visualization tools like Matplotlib for insightful data representation. <br>
-									Developed a Random Forest model for customer churn risk assessment.
-									Provided recommendations for the optimization of future marketing strategies.
-									</p>
-									<ul class="actions">
-										<li><a href="https://www.kaggle.com/code/minorole/eda-and-machine-learning-model" class="button primary color2" target="_blank">Kaggle notebook showing full process</a></li>
-									</ul>
-							</div>
-							<div class="image filtered tinted" data-position="top right">
-								<img src="images/pic01.jpg" alt="" />
-							</div>
-						</section>
+  <title>Jun's Silent Odyssey</title>
+</head>
 
-						<!-- Panel (Spotlight) -->
-							<section class="panel spotlight medium">
-								<div class="content span-10">
-									<h2 class="major">Ongoing Kaggle Competition - Enefit</h2>
-									<p>
-										Joined kaggle’s Enefit - Predict Energy Behavior of Prosumers currently ranked as 350/1485. <br>
-										Developed a predictive model using Python, Polars, LightGBM, and CatBoost for energy consumption and production forecasting.
-										Integrated and analyzed diverse datasets including weather, client data, and energy prices, enhancing model accuracy.
-										</p>
-								</div>
-								<div class="image filtered tinted" data-position="top right">
-									<img src="images/pic01.jpg" alt="" />
-								</div>
-							</section>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
 
-						<!-- Panel -->
-							<section class="panel">
-								<div class="intro color2">
-									<h2 class="major">📷 Exploring Life Beyond Data: </h2>
-									<p>In moments away from the realm of data analysis, I find joy and creative expression through photography. Each photo in this gallery is a window into the unique perspectives I've encountered. Dive into this collection to see the world as I do, one snapshot at a time. Enjoy browsing through some of my personal favorites! 🌟</p>
-								</div>
-								<div class="gallery">
-									<div class="group span-3">
-										<a href="images/gallery/fulls/01.jpg" class="image filtered span-3" data-position="center"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-									</div>
-									<a href="images/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="center"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
-									<div class="group span-4-5">
-										<a href="images/gallery/fulls/05.jpg" class="image filtered span-3" data-position="center"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="center"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
-										<a href="images/gallery/fulls/08.jpg" class="image filtered span-3" data-position="center"><img src="images/gallery/thumbs/08.jpg" alt="" /></a>
-									</div>
-									<a href="images/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="center"><img src="images/gallery/thumbs/09.jpg" alt="" /></a>
-								</div>
-							</section>
 
-						<!-- Panel -->
-							<section class="panel color4-alt">
-								<div class="intro color4">
-									<h2 class="major">Contact me</h2>
-									<p>
-										Feel free to reach out to me via the contact form or by clicking on the social media outlets on the right</p>
-								</div>
-								<div class="inner columns divided">
-									
-									<div class="span-1-5">
-										<ul class="contact-icons color1">
-											<li class="icon brands fa-twitter"><a href="https://twitter.com/ByJunP">@ByJunP</a></li>
-											<li class="icon brands fa-instagram"><a href="https://www.instagram.com/silent.odyssey/">@Silent.odyssey</a></li>
-											<li class="icon brands fa-kaggle"><a href="https://www.kaggle.com/minorole">@Minorole</a></li>
-											<li class="icon brands fa-github"><a href="https://github.com/minorole">@Minorole</a></li>
-										</ul>
-									</div>
-								</div>
-							</section>
+  <!-- END lines -->
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  
+  <nav class="site-nav dark mb-5 site-navbar-target sticky-nav">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0"><img src="images/logo.png" alt="Your Logo" style="height: 80px;"></a>
+
+
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="#home-section" class="nav-link active">Home</a></li>
+          <li><a href="#portfolio-section" class="nav-link">Projects</a></li>
+          <li><a href="#about-section" class="nav-link">About</a></li>
+          <!--<li class="has-children">
+            <a href="#about-section" class="nav-link">About</a>
+            <ul class="dropdown">
+              <li><a href="elements.html" class="nav-link">Elements</a></li>
+              <li class="has-children">
+                <a href="#">Menu Two</a>
+                <ul class="dropdown">
+                  <li><a href="#" class="nav-link">Sub Menu One</a></li>
+                  <li><a href="#" class="nav-link">Sub Menu Two</a></li>
+                  <li><a href="#" class="nav-link">Sub Menu Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="nav-link">Menu Three</a></li>
+            </ul> 
+          </li>-->
+          <li><a href="#skills-section" class="nav-link">Skills</a></li>
+          <li><a href="#footer-section" class="nav-link">Contact me</a></li>
+        </ul>
+
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+
+      </div>
+    </div>
+  </nav>
 
 
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/main.js"></script>
+  <div class="untree_co-section pb-0" id="home-section">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-7">
+          <h1 class="heading gsap-reveal-hero mb-3"><strong>Jun's<span class="text-primary">.</span> Silent Odyssey</strong></h1>
+          <h2 class="subheading gsap-reveal-hero mb-4">
+            Hello, My name is Jun, a data analyst and detective wannabe, when I'm not deep in data, you'll find me with a camera in hand, capturing life's candid moments. 
+          </h2>
+          <p class="gsap-reveal-hero"><a href="https://www.instagram.com/silent.odyssey/" target="_blank" class="btn btn-outline-black">My photos here</a></p>    
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
-	</body>
-</html>
+
+  <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
+    <div class="container">
+          <div class="row mb-5">
+            <div class="col-lg-7 text-center mx-auto">
+              <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Projects</strong></h2>              
+  
+              <div class="wave gsap-reveal-hero" >
+                <svg>
+                  <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+
+      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+      <div id="portfolio-single-holder"></div>
+
+      <div class="portfolio-wrapper">
+
+        <div id="posts" class="row">
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="https://www.kaggle.com/code/minorole/avocado-price-prediction-with-xgboost" target="-blank" class="portfolio-item isotope-item gsap-reveal-img" data-id="1">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Project Avocado</h3>
+                  <p>analyzed US avocado prices 2015-2023.</p>
+                </div>
+              </div>
+              <img src="images/avocado.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="https://youtu.be/owxtvgDYu6M?si=XNWIU7QOyx2Auoyu" target="-blank" class="portfolio-item isotope-item gsap-reveal-img" data-id="2">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Project Comments</h3>
+                  <p>analyzed youtube comments</p>
+                </div>
+              </div>
+              <img src="images/comments.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="https://youtu.be/XvhNQRkHMXQ?si=ZtSFHeArWQjqLFT1" target="-blank" class="portfolio-item isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Project doctor</h3>
+                  <p>analyzed available clinicians in the US</p>
+                </div>
+              </div>
+              <img src="images/doctor2.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="https://www.kaggle.com/code/minorole/eda-and-building-machine-learning-model" target="-blank" class="portfolio-item isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Project Churn</h3>
+                  <p>analyzed customer churn risk</p>
+                </div>
+              </div>
+              <img src="images/customers.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="https://www.kaggle.com/code/minorole/eda-and-machine-learning-model" target="-blank" class="portfolio-item isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Project Airline Loyalty Campaign</h3>
+                  <p>analyzed loyalty campaign and churn risk</p>
+                </div>
+              </div>
+              <img src="images/airline.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="https://www.kaggle.com/code/minorole/forcast-the-class-of-orbit-for-new-satellites" target="-blank" class="portfolio-item isotope-item gsap-reveal-img" data-id="1">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Project satellite</h3>
+                  <p>forcast the class of orbit</p>
+                </div>
+              </div>
+              <img src="images/satellite.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <!-- <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Nike Shoe</h3>
+                  <p>illustration, application</p>
+                </div>
+              </div>
+              <img src="images/img_7.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Old Typewriter</h3>
+                  <p>web, branding</p>
+                </div>
+              </div>
+              <img src="images/img_8.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Walking Man</h3>
+                  <p>web, branding</p>
+                </div>
+              </div>
+              <img src="images/img_9.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Progress Journal</h3>
+                  <p>web, branding</p>
+                </div>
+              </div>
+              <img src="images/img_10.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>The Dog</h3>
+                  <p>web, branding</p>
+                </div>
+              </div>
+              <img src="images/img_11.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Beautiful Woman</h3>
+                  <p>web, branding</p>
+                </div>
+              </div>
+              <img src="images/img_12.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Book Binding</h3>
+                  <p>web, branding</p>
+                </div>
+              </div>
+              <img src="images/img_2.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+        </div>
+      </div>-->
+
+
+        <!-- </div>
+        </div> -->
+      </div>
+    </div>
+
+
+    <!-- <div class="untree_co-section pb-0" id="about-section">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-7 mx-auto text-center author-wrap">
+            <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+            <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Jun Peng</h3>
+            <p class="gsap-reveal-hero">Product Designer and Developer</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+
+
+            <p class="gsap-reveal-hero">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+
+            <p class="gsap-reveal-hero">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+            <p class="gsap-reveal-hero">Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+
+            <p class="gsap-reveal-hero">The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She packed her seven versalia, put her initial into the belt and made herself on the way.</p>
+
+            <p class="gsap-reveal-hero mb-5">When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+
+
+            <p class="gsap-reveal-hero text-center"><a href="https://untree.co/" target="_blank" class="btn btn-outline-black">Hire Me at Untree.co</a></p>    
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+
+
+
+
+    <div class="untree_co-section pb-0" id="skills-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Skillset</strong></h2>
+            <p class="gsap-reveal-hero">Here are some of my skills.</p>
+            <div class="wave gsap-reveal-hero">
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- First section -->
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="90">
+                <div class="number"></div>
+                <p class="caption">Python</p>
+              </div>
+            </div>
+          </div>
+          <!-- Duplicate section 7 more times -->
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="80">
+                <div class="number"></div>
+                <p class="caption">PostgreSQL</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="80">
+                <div class="number"></div>
+                <p class="caption">Tableau</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="90">
+                <div class="number"></div>
+                <p class="caption">Excel</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="80">
+                <div class="number"></div>
+                <p class="caption">HTML5</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="100">
+                <div class="number"></div>
+                <p class="caption">Chinese</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="90">
+                <div class="number"></div>
+                <p class="caption">Adobe Lightroom</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="75">
+                <div class="number"></div>
+                <p class="caption">Photoshop</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+<!--
+    <div class="untree_co-section testimonial-wrap">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Testimonials</strong></h2>
+            <p class="gsap-reveal-hero">What clients say...</p>
+
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+
+        <div data-aos="fade-left" data-aos-delay="200">
+
+
+
+          <div class="owl-carousel owl-3-slider">
+            <div class="item">
+              <div class="testimonial-v1">
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                <div class="mb-4">
+                  <h3>James Smith</h3>
+                  <span class="caption">CEO &amp; Co-Founder</span>
+                </div>
+                <blockquote>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </blockquote>
+              </div>
+            </div> -->
+            <!-- END .item -->
+ <!-- 
+            <div class="item">
+              <div class="testimonial-v1">
+                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
+                <div class="mb-4">
+                  <h3>Jenny Wilson</h3>
+                  <span class="caption">CEO &amp; Co-Founder</span>
+                </div>
+                <blockquote>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </blockquote>
+              </div>
+            </div>
+            
+
+            <div class="item">
+              <div class="testimonial-v1">
+                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                <div class="mb-4">
+                  <h3>Dan Anderson</h3>
+                  <span class="caption">CEO &amp; Co-Founder</span>
+                </div>
+                <blockquote>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </blockquote>
+              </div>
+            </div>
+            
+
+            <div class="item">
+              <div class="testimonial-v1">
+                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                <div class="mb-4">
+                  <h3>James Smith</h3>
+                  <span class="caption">CEO &amp; Co-Founder</span>
+                </div>
+                <blockquote>
+                  <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </blockquote>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  -->
+<!--
+    <div class="untree_co-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Blog Posts</strong></h2>
+            <p class="gsap-reveal-hero">News &amp; Updates</p>
+
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff" stroke-width="2"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="0">
+            <div class="post-entry">
+              <a href="#" class="thumb"><img src="images/gal_1.jpg" alt="image" class="img-fluid"></a>
+              <h3><a href="#">Separated they live in</a></h3>
+              <div class="post-meta">
+                Aug 4, 2020 by <a href="#">Admin</a> in <a href="#">Web Design</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="post-entry">
+              <a href="#" class="thumb"><img src="images/gal_2.jpg" alt="image" class="img-fluid"></a>
+              <h3><a href="#">Separated they live in</a></h3>
+              <div class="post-meta">
+                Aug 4, 2020 by <a href="#">Admin</a> in <a href="#">Web Design</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+            <div class="post-entry">
+              <a href="#" class="thumb"><img src="images/gal_3.jpg" alt="image" class="img-fluid"></a>
+              <h3><a href="#">Separated they live in</a></h3>
+              <div class="post-meta">
+                Aug 4, 2020 by <a href="#">Admin</a> in <a href="#">Web Design</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+            <div class="post-entry">
+              <a href="#" class="thumb"><img src="images/gal_4.jpg" alt="image" class="img-fluid"></a>
+              <h3><a href="#">Separated they live in</a></h3>
+              <div class="post-meta">
+                Aug 4, 2020 by <a href="#">Admin</a> in <a href="#">Web Design</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+<!--
+    <div class="untree_co-section" id="contact-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Contact</strong></h2>
+            <p class="gsap-reveal-hero">Available for work. Get in touch</p>
+
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-6 form-group">
+                  <input type="text" class="form-control" placeholder="Firstname">
+                </div>
+                <div class="col-lg-6 form-group">
+                  <input type="text" class="form-control" placeholder="Lastname">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 form-group">
+                  <input type="email" class="form-control" placeholder="Email address">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 form-group">
+                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Write your message..."></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 form-group">
+                  <input type="submit" class="btn btn-black" value="Send Message">
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <div id="map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d320.12856481718734!2d-73.97263090448001!3d40.78263296621774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588ff21eaaab%3A0xd0128d5d89a30429!2sMargarita%20Anthoine!5e0!3m2!1sen!2sph!4v1597149027268!5m2!1sen!2sph"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+-->
+    <div class="site-footer" id="footer-section">
+      <div class="container">
+        
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="widget">
+              <h3><a href="#home-section" class="nav-link active">Home</h3>
+              <ul class="list-unstyled float-left links">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div> 
+          </div> 
+    
+          <div class="col-lg-3">
+            <div class="widget">
+              <h3><a href="#portfolio-section" class="nav-link active">Projects</h3>
+              <ul class="list-unstyled float-left links">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </div> 
+          </div> 
+   
+          <div class="col-lg-3">
+            <div class="widget">
+              <h3>Connect</h3>
+              <ul class="list-unstyled social">
+                <li><a href="https://www.instagram.com/silent.odyssey/" target="_blank"><span class="icon-instagram"></span></a></li>
+                <li><a href="https://twitter.com/ByJunP" target="_blank"><span class="icon-twitter"></span></a></li>
+                <li><a href="https://www.linkedin.com/in/minorole/" target="_blank"><span class="icon-linkedin"></span></a></li>
+                <li><a href="https://www.youtube.com/@Minorole" target="_blank"><span class="icon-youtube"></span></a></li>
+              </ul>
+            </div> 
+          </div> 
+      
+    
+          <div class="col-lg-3">
+            <div class="widget">
+              <h3>Contact</h3>
+              <!--<address>43 Raymouth Rd. Baltemoer, London 3910</address>-->
+              <ul class="list-unstyled links mb-4">
+                <li><a href="tel://6509963996">650-996-3996</a></li>
+            
+                <li><a href="mailto:junpeng@me.com">junpeng@me.com</a></li>
+              </ul>
+              
+              
+              
+            </div> 
+          </div> 
+    
+        </div> 
+      </div> 
+    </div>
+    
+
+
+
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/wave-animate.js"></script>
+    <script src="js/circle-progress.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/scrollmagic.animation.gsap.min.js"></script>
+
+
+    <script src="js/custom.js"></script>
+    
+  </body>
+
+  </html>
